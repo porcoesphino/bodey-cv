@@ -3,12 +3,19 @@ layout: default
 title: My Résumé, and a few others
 ---
 
-<div class="page-header">
-  <h1>My Résumé <small>And far nicer ones</small></h1>
-</div>
 
-<div class="jumbotron">
-Building a résumé is tough and tiring but every time I do it I learn a little more and end up writing some notes. Here are some of those notes along with my resume.
+<div class="row page-header">
+  <div class="col-lg-12">
+    <h1>My Résumé <small>And far nicer ones</small></h1>
+  </div>
+</div>
+<div class="row">
+<div class="col-lg-6">
+  <div class="jumbotron">
+Surprisingly, résumés can be beautiful. I've kept a few around to try and imitate. If beauty isn't what you're after...<br/>
+<div><a class="btn btn-primary btn-lg" href="latex/bodey-cv.pdf">My Résumé</a></div>
+  </div>
+</div>
 </div>
 
 ## Examples
@@ -19,9 +26,15 @@ Building a résumé is tough and tiring but every time I do it I learn a little 
 * [Katie Newell's résumés](http://www.katienewell.com) isn't too much for a technical role, but still nicely designed.
 * I obviously read [James Paden's guide](http://www.xemion.com/website-design-learning-center/5-steps-to-the-perfect-web-designer-resume/) while collecting these >_<
 
+<div class="alert">
+If you see any other good examples, let me know.
+</div>
 
-***If you see any other good examples, let me know.***
-
-## Mine
-
-Mine is far worse. I'll add links in a second.
+<div class="row">
+  <div class="col-lg-6">
+    <h2>Mine</h2>
+    
+    <p>Mine is far worse. I'll add links in a second.</p>
+  </div>
+</div>
+Contact me at: <bodey.baker@gmail.com>.
