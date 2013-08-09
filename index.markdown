@@ -7,3 +7,10 @@ Here is my dummy page. This should work, right?
 
 {% include README }
 
+And more
+
+
+{% include README.markdown }
+
+And even more
+
