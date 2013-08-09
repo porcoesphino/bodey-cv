@@ -1,5 +1,6 @@
 title : My Résumé... and a few notes.
 
+baseurl: /bodey-cv
 safe: true
 lsi: false
 pygments: true
