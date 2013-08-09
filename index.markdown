@@ -11,7 +11,6 @@ And even more
 
 ## Something to go here
 
-{% include README.markdown %}
 
 Some text
 
