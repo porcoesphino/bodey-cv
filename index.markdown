@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: My Résumé, and a few others
 ---
 
