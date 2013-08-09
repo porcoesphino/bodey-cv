@@ -1,5 +1,9 @@
 title : My Résumé... and a few notes.
 
+safe: true
+lsi: false
+pygments: true
+
 author :
   name : Bodey Baker
   email : bodey.baker@gmail.com
