@@ -23,7 +23,7 @@ My first decent résumé was written for a university assignment. We had to use 
  - [English Teacher Version][]
 
 [PDF]:  {{site.baseurl}}/latex/bodey-cv.pdf
-[Source Code]:  {{site.baseurl}}/latex/bodey-cv.latex
+[Source Code]:  {{site.baseurl}}/latex/bodey-cv.tex
 [English Teacher Version]:  {{site.baseurl}}/latex/bodey-cv-elt.pdf
 {% endcapture %}
 
