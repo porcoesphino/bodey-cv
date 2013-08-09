@@ -11,7 +11,10 @@ And even more
 
 ## Something to go here
 
+{% include README.markdown %}
+
 Some text
+
  - A list
 
 `And some code`
