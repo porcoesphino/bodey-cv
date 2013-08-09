@@ -25,6 +25,12 @@ My first decent résumé was written for a university assignment. We had to use 
 [PDF]:  {{site.baseurl}}/latex/bodey-cv.pdf
 [Source Code]:  {{site.baseurl}}/latex/bodey-cv.tex
 [English Teacher Version]:  {{site.baseurl}}/latex/bodey-cv-elt.pdf
+
+<!--
+[forcing A4 size onto websites]:  http://stackoverflow.com/questions/3341485/how-to-make-a-html-page-in-a4-paper-size-pages
+[print media css]: http://stackoverflow.com/questions/9718435/format-a-html-document-into-multiple-a4-size-sections
+[WeasyPring for prining html]:  http://weasyprint.org/
+-->
 {% endcapture %}
 
 {% capture examples %}
@@ -50,6 +56,10 @@ Here are some nice résumés I've seen around:
 [Hugo Giraudel has a nice HTML resume]:  http://hugogiraudel.com/resume/
 [Bret Vicor]:  http://worrydream.com/#!/cv/bret_victor_resume.pdf
 [Bret Vicor Cached]:  {{site.baseurl}}/examples/bret_victor_resume.pdf
+{% endcapture %}
+
+{% capture footer %}
+Free to use in any way. <bodey.baker@gmail.com>
 {% endcapture %}
 
 {% include home-page.html %}
