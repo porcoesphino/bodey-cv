@@ -11,12 +11,8 @@ Surprisingly, résumés can be beautiful. I've kept a few around to try and imit
 If you see any other good examples, let me know: <bodey.baker@gmail.com>
 {% endcapture %}
 
-{% capture email %}
-<bodey.baker@gmail.com>
-{% endcapture %}
-
 {% capture mine %}
-My first decent résumé was written for a university assignment. We had to use Latex for all the other assignments, so that's what I used for this too. It was a pain getting it to look nice and that's my main reason for bothering with this site. That and I wanted some notes for next time I get around to making a resume. At some point I'm planning on moving it to HTML/CSS.
+My first decent résumé was written for a university assignment. We had to use Latex for all the other assignments, so I used it for my résumé too. It was a pain getting it to look nice so I figured I may as well share it. That also gave me somewhere to put the other résumés I've collected. At some point I'm planning on converting it to a HTML/CSS document.
 
  - [PDF][]
  - [Source Code][]
@@ -35,6 +31,7 @@ My first decent résumé was written for a university assignment. We had to use 
 
 {% capture examples %}
 Here are some nice résumés I've seen around:
+
 * [Kevin Fox's résumé][] ([cached][cached-fox]) is beautiful in it's simplicity. If only I had the experience.
 * [Abie Rose][] ([cached][cached-abie])has a nice one for a creative job.
 * [Alyson Shontell's cover letter][] (cached: [pg1][], [pg2][]) for applying at Google.
@@ -59,7 +56,7 @@ Here are some nice résumés I've seen around:
 {% endcapture %}
 
 {% capture footer %}
-Free to use in any way. <bodey.baker@gmail.com>
+Free to use in any way.
 {% endcapture %}
 
 {% include home-page.html %}
