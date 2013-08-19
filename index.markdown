@@ -33,7 +33,7 @@ My first decent résumé was written for a university assignment. We had to use 
 Here are some nice résumés I've seen around:
 
 * [Kevin Fox's résumé][fox] ([cached][cached-fox]) is beautiful in it's simplicity. If only I had the experience.
-* [Abie Rose][] ([cached][cached-abie])has a nice one for a creative job.
+* [Abie Rose][] ([cached][cached-abie]) has a nice one for a creative job.
 * [Alyson Shontell's cover letter][shontell] (cached: [pg1][], [pg2][]) for applying at Google.
 * [Katie Newell's résumés][newell] ([cached][cached-katie]) isn't too much for a technical role, but still nicely designed.
 * I obviously read [James Paden's guide][paden] while collecting these
