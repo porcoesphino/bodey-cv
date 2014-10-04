@@ -2,3 +2,6 @@ _site
 *.aux
 *.log
 *.synctex*
+.DS_Store
+*.out
+node
