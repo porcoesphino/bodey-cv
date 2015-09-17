@@ -1,0 +1,10 @@
+{
+  "name": "bodey-baker-cv",
+  "version": "0.1.0",
+  "//": "jquery is kept low for IE8 support",
+  "dependencies": {
+    "jquery": "1.11.3",
+    "bootstrap": "^3.3.5"
+  },
+  "private": true
+}
