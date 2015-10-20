@@ -4,7 +4,8 @@
   "//": "jquery is kept low for IE8 support",
   "dependencies": {
     "jquery": "1.11.3",
-    "bootstrap": "^3.3.5"
+    "bootstrap": "^3.3.5",
+    "less": "~2.5.3"
   },
   "private": true
 }

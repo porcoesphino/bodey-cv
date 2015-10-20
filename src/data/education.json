@@ -1,0 +1,14 @@
+{
+  "education":
+    [{
+      "degree": "Mechatronics B.Eng. (Hons)",
+      "name": "The University of Western Australia",
+      "date": "2011",
+      "description": "<dl><dt>Thesis:</dt><dd><em>Developing a stand alone wireless sensor network for damage detection using the impedance method.</em><br/>Changed the platform of an active damage detection system from expensive laboratory equipment to an embedded platform that is more applicable to the field. This involved cross-compiling using OpenEmbedded, user and kernel level code, some circuit design and mathematical analysis of sensor readings.</dd><dt>Distinctions:</dt><dd>Algorithms, Software Engineering Design, Object Oriented Programming, Embedded Systems, Robotics and Automation, Real-time Distributed Computer Systems, Computer Architecture, Operation Systems, Mechatronics Systems, Advanced Control Engineering</dd></dl>"
+  }, {
+    "degree": "Computer Science BCompSc (Hons)",
+    "name": "The University of Western Australia",
+    "date": "2006",
+    "description": "<dl><dt>Thesis:</dt><dd><em>Strategy specification for teamwork in robot soccer</em><br/>Researched planning in multi-agent systems where a team of agents have a common goal, are being hindered by other agents, only have a limited view of the world, and due to time constraints not all team members can be informed of the planned solution but they must still co-ordinate in a reasonable manner.</dd><!-- Not an American GPA <dt>GPA (WAM)</dt><dd>6.00 (74.13)</dd> --><dt>High distinctions:</dt><dd>Computer Vision, Scientific Communication, Visualisation</dd></dl>"
+  }]
+}

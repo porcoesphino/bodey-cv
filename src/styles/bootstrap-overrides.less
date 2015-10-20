@@ -1,2 +1,362 @@
-@import "bower_components/bootstrap/less/bootstrap.less";
-//@import "bower_components/bootstrap/less/theme.less";
+@import "/bower_components/bootstrap/less/bootstrap.less";
+@import "/bower_components/bootstrap/less/theme.less";
+
+@media all {
+  .no-media-query {
+    display: none;
+  }
+}
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+  border:0;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+
+html, body {
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 14px;
+}
+
+.clear {
+  clear: both;
+}
+
+.progress {
+    margin-bottom: 0;
+}
+
+article {
+    margin: 15px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+blockquote {
+    font-size: inherit;
+    margin-bottom: 15px;
+}
+
+.extracurricular dl {
+  font-size: 80%;
+}
+
+.panel-heading {
+    background-color: #fafafa;
+    background-image: none;
+}
+
+.experience .panel-heading, .education .panel-heading {
+    padding: 5px 10px;
+}
+
+.skills .panel-heading {
+  padding: 0;
+  border-bottom: 0;
+}
+
+.language .panel-heading {
+  padding: 2px 5px;
+}
+
+.panel-heading a {
+    text-decoration: none;
+}
+
+.panel-title {
+    font-size: inherit;
+}
+
+body > div {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.top-upper {
+    padding: 25px 35px 0 35px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.name h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+    font-family: 'Playfair Display', times, serif;
+    color: #464646;
+}
+
+.name h2 {
+    font-size: 2em;
+    font-weight: 300;
+    margin-left: 2px;
+    font-family: 'Open Sans Condensed', helvetica, arial, sans-serif;
+    color: #337ab7;
+    padding-bottom: 5px;
+}
+
+.intro-buttons, .intro-buttons .btn {
+    width: 100%;
+}
+
+.area-left-center {
+    padding: 0 20px;
+    width: 60%;
+    float: left;
+}
+
+.details {
+    float: right;
+    padding-top: 0.6ex;
+    padding-bottom: 0.6ex;
+}
+
+.details ul {
+    list-style-type: none;
+    font-size: 0.9em;
+    margin-top: 2px;
+}
+
+.details ul li {
+    margin-bottom: 3px;
+    color: #444;
+}
+
+.details ul li a, a[href^=tel] {
+    color: #444;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+.details ul li a:hover {
+    color: #0099e8;
+}
+
+section {
+    border-bottom: 1px solid #dedede;
+    padding: 20px 0 0;
+}
+
+section:last-child {
+    padding: 20px 0 10px;
+}
+
+.top-lower > section {
+    padding: 0 0;
+}
+
+.top-lower > section p {
+    margin: 5px 0 5px;
+}
+
+.sectionTitle h1 {
+    font-family: 'PT Serif', times, serif;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.sectionContent h2 {
+    font-family: 'PT Serif', times, serif;
+    font-size: 2.2ex;
+}
+
+.small-details {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-bottom: 3px;
+}
+
+.work-location {
+  float: left;
+}
+
+.hobbies {
+    border-bottom: 0;
+}
+
+.hobbies li {
+    list-style-type: none;
+    background-color: #5bc0de;
+    display:inline;
+    padding:.2em .6em .3em;
+    font-size:75%;
+    border-radius:.25em;
+    border: 1px;
+    color:#fff;
+    text-align:center;
+    white-space:nowrap;
+    vertical-align:baseline;
+}
+
+.panel-group .panel {
+    border-radius: 0;
+}
+
+.panel {
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.progress {
+    border-radius: 0;
+}
+
+.progress-bar {
+    background-color: #859900 !important;
+    -webkit-print-color-adjust: exact;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.accordion-body {
+    font-size: 85%;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.panel-body {
+  font-size: 85%;
+  display: table;
+}
+
+.skills .panel {
+  margin-bottom: 5px;
+}
+
+.skills .panel-collapse {
+    border-top: 1px solid #ddd;
+}
+
+.skills dt {
+  float: left;
+  overflow: hidden;
+  clear: left;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.skills dd {
+  margin-left: 3.5em;
+}
+
+.language span {
+    float: right;
+}
+
+.language .star {
+    color: #f0ad4e;
+}
+
+.publications .title {
+  font-style: italic;
+}
+
+.publications .authors {
+  font-weight: bold;
+}
+
+dt {
+    float: left;
+    margin-right: 1em;
+}
+
+.area-right-top{
+    padding-right: 20px;
+    width: 40%;
+    float: right;
+    margin-bottom: 30px;
+}
+
+.area-right-bottom {
+    padding-right: 20px;
+    width: 40%;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.name {
+    float: left;
+}
+
+@media all and (max-width: 700px) {
+    .area-left-center {
+        padding: 0 25px;
+        width: 100%;
+    }
+
+    .area-right-bottom, .area-right-top {
+        width: 100%;
+        padding: 0 25px;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .clear-single {
+        clear: both;
+    }
+}
+
+@media all and (max-width: 601px) {
+    body > div {
+        width: 95%;
+        margin: 0 auto;
+        min-width: 280px;
+    }
+
+    .name, .details {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sectionTitle, .sectionContent {
+        float: none;
+        width: 100%;
+    }
+
+    .sectionTitle {
+        margin-left: -2px;
+        font-size: 1.25em;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .top-upper {
+        padding: 15px 15px;
+    }
+
+    section {
+        padding: 15px 0 0;
+    }
+
+    .area-left-center {
+        padding: 0 25px;
+    }
+
+    .name h1 {
+        line-height: .8em;
+        margin-bottom: 4px;
+    }
+}
+
+@media print {
+    .intro-buttons {
+        display: none;
+    }
+}
+

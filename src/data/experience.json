@@ -1,0 +1,98 @@
+{
+  "experience":
+    [{
+      "company": "PowerVision",
+      "position": "Software Engineer",
+      "start": "Jan 2015",
+      "end": "Sep 2015",
+      "location": "China",
+      "description": [
+        "Market research, requirements analysis and initial planning for the software components in a new product.",
+        "Introduced a professional workflow using Phabricator and Git.",
+        "Guiding and training inexperienced engineers.",
+        "Project planning and organization including hiring and interviewing new engineers.",
+        "Extending and adding features to a system consisting of multiple pieces of hardware mostly written in C++.",
+        "Embedded programming on a real time OS with tasks for sensor fusion, control and communication." ]
+    }, {
+      "company": "SEWORKS",
+      "position": "Software Engineer",
+      "country": "Korea",
+      "start": "Mar 2014",
+      "end": "Dec 2014",
+      "location": "Korea",
+      "description": [
+        "Built an Eclipse plugin for Android projects that encrypts and injects Java byte-code during the ADT build before dex executes.",
+        "Researched methods to encrypt parts of an iOS app tested with a POC that injected and altered ARM instructions in the Macho-O binary. This required research into the Unity platform, build process, objective C runtime and iOS internals." ]
+    }, {
+      "company": "Wonderland",
+      "position": "Kindergarten English Teacher",
+      "country": "Korea",
+      "start": "Mar 2013",
+      "end": "Sep 2013",
+      "location": "Korea",
+      "description": [
+        "Taught English, art and science; planned classes; home room teacher.",
+        "Free time: Java program to gather sentiment of Companies using Twitter data; Python and Javascript program to parse natural language from the internet; Studied Startup Engineering at Coursera / Stanford, algorithms, design patterns, responsive design, web applications, DevOps, web scraping, web services and SCRUM / agile methodologies" ]
+    }, {
+      "company": "Cyber Technology",
+      "position": "Avionics Software Engineer",
+      "start": "Jul 2010",
+      "end": "Jul 2012",
+      "location": "Australia",
+      "description": [
+        "Implemented the UI for controlling and configuring UAVs using JavaScript & PHP to network with the ground control server.",
+        "Implemented the UI prototype in Java.",
+        "Designed and wrote the firmware and boot loaders for our peripheral devices using C and the Code Sourcery toolchain. This required knowledge of UDP, CAN and reverse engineering of third party bus protocols.",
+        "Prototyped / analysed data in Python and C#." ]
+    }, {
+      "company": "JRB Engineering",
+      "position": "Undergraduate Engineer",
+      "start": "May 2009",
+      "end": "Jun 2010",
+      "location": "Australia",
+      "description": [
+        "Processed data in Python to ensure vehicles met vibration requirements.",
+        "Improved the pattern matching algorithm for brake pad detection using Python.",
+        "Wrote Visual C# Visualisation software to highlight issues in current software.",
+        "Improved Visual C++ program to remove noise from point cloud data." ]
+    }, {
+      "company": "W5 Staff Services",
+      "position": "Assistant English Teacher",
+      "start": "May 2008",
+      "end": "Feb 2009",
+      "location": "Japan",
+      "description": [
+        "Taught English to primary and junior high school students.",
+        "Duties: planning lessons; teaching; communicating with students.",
+        "Skills: teaching; public speaking; motivating; integrating into cultures."
+      ]
+    }, {
+      "company": "JRB Engineering",
+      "position": "Undergraduate Engineer",
+      "start": "Jan 2008",
+      "end": "Mar 2008",
+      "location": "Australia",
+      "description": [
+        "Visualised the output of log files using Visual Studio with C++.",
+        "Created dynamic libraries for data processing routines in Windows",
+        "Modelled parts for a road rail vehicle using Autodesk Inventor." ]
+    }, {
+      "company": "CET at UWA",
+      "position": "Research Assistant",
+      "start": "Dec 2006",
+      "end": "Jan 2008",
+      "location": "Australia",
+      "description": [
+        "Researched a parallel algorithm to analyse the directional variation of roughness of a rock surface from 3D geometric data using MPI for C eventuating in a paper.",
+        "Studied the feasibility of using Amira to process 3D data sampled from rock samples to analyse their composite structure and visualise the segmented data using a 3D projector for better data exploration." ]
+    }, {
+      "company": "UWA",
+      "position": "Tutor",
+      "start": "Jul 2007",
+      "end": "Nov 2007",
+      "location": "Australia",
+      "description": [
+        "Tutored: Modelling and Computing Analysis for Engineers; Mechatronics Systems; Java.",
+        "Required a detailed knowledge of MATLAB, LabVIEW and Java." ]
+  }]
+}

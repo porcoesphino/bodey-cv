@@ -1,0 +1,27 @@
+{
+  "hobbies": [{
+    "name": "Soccer"
+  }, {
+    "name": "Capoeira"
+  }, {
+    "name": "Rock Climbing"
+  }, {
+    "name": "Open Source Software"
+  }, {
+    "name": "Machine Learning"
+  }, {
+    "name": "Translation"
+  }, {
+    "name": "Snow Boarding"
+  }, {
+    "name": "Linux"
+  }, {
+    "name": "Android"
+  }, {
+    "name": "Travelling"
+  }, {
+    "name": "Languages"
+  }, {
+    "name": "Cultures"
+  }]
+}

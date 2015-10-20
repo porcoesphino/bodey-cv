@@ -1,0 +1,22 @@
+<div class="panel-group" id="accordionEducation" role="tablist" aria-multiselectable="true">
+  {{#forEach education}}
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingEducation{{index}}">
+      <div class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseEducation{{index}}" aria-expanded="true" aria-controls="collapseEducation{{index}}">
+          <div class="pull-left"><h2>{{degree}}</h2>
+            <p class="small-details">{{name}}</p>
+          </div>
+          <p class="small-details pull-right">{{date}}</p>
+          <div class="clear"></div>
+        </a>
+      </div>
+    </div>
+    <div id="collapseEducation{{index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingLang{{index}}">
+      <div class="panel-body">
+        {{{description}}}
+      </div>
+    </div>
+  </div>
+  {{/forEach}}
+</div>

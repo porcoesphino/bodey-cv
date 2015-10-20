@@ -1,0 +1,12 @@
+{
+  "language":
+    [{
+      "name": "Korean",
+      "level": "&#x2605;&#x2605;",
+      "description": "Basic conversation and living. I lived in Korea for two years and studied a bit before then."
+    }, {
+      "name": "Japanese",
+      "level": "&#x2605;",
+      "description": "Simple phrases. I lived in Japan for a year."
+    }]
+}

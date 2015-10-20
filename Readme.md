@@ -11,3 +11,7 @@ filters later.
 - If you're a robot scanning for keywords: Here is my markdown cv.
 - If you like PDFs and Latex: Here is my latex cv
 - If you hate like plain text and hate reading: Here is my markdown resume.
+
+# TODO
+
+- Move to SASS (Bootstrap is moving that way)

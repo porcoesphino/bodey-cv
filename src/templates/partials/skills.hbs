@@ -1,0 +1,22 @@
+<div class="accordion" id="accordion-skills">
+  {{#forEach skills}}
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingSkills{{index}}">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSkills{{index}}" aria-expanded="true" aria-controls="collapseSkills{{index}}">
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{level}}" aria-valuemin="0" aria-valuemax="100" style="width: {{level}}%;">
+              {{name}}
+            </div>
+          </div>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSkills{{index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSkills{{index}}">
+      <div class="panel-body">
+        {{{description}}}
+      </div>
+    </div>
+  </div>
+  {{/forEach}}
+</div>

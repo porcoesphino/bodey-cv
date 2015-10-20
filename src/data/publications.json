@@ -1,0 +1,17 @@
+{
+  "publications": [
+    {
+      "authors": "B. Baker, K. Gessner, E.J. Holden, and A. Squelch",
+      "title": "Automatic detection of anisotropic features on rock surfaces",
+      "final": "Geosphere, Geological Society of America, (April 2008), 4(2):418-428"
+    }, {
+      "authors": "B. Baker, M. Reynolds and W. Liu",
+      "title": "Strategy specification for teamwork in robot soccer",
+      "final": "PCAR ’06: Proceedings of the 2006 international symposium on Practical cognitive agents and robots (New York, NY, USA), ACM Press, 2006, pp. 129–140."
+    }, {
+      "authors": "B. Baker, K. Gessner, E.J. Holden, and A. Squelch",
+      "title": "Automatic analysis and visualisation of rock surface roughness",
+      "final": "Deformation in the desert, Tectonics & Structural Geology, Geological Society of Australia, July 2007"
+    }
+  ]
+}
