@@ -1,0 +1,24 @@
+<div class="panel-group" id="accordionExperience" role="tablist" aria-multiselectable="true">
+  {{#forEach experience}}
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingExperience{{index}}">
+      <div class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseExperience{{index}}" aria-expanded="true" aria-controls="collapseExperience{{index}}">
+          <div class="work-location"><h2>{{position}}</h2>
+            <p class="small-details">{{company}}, {{location}}</p>
+          </div>
+          <div class="small-details pull-right">{{start}} - {{end}}</div>
+          <div class="clear"></div>
+        </a>
+      </div>
+    </div>
+    <div id="collapseExperience{{index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingLang{{index}}">
+      <div class="panel-body">
+        {{#each description}}
+        • {{this}}<br/>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+  {{/forEach}}
+</div>

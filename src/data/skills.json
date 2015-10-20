@@ -1,0 +1,121 @@
+{
+  "//" : "Computer Vision",
+  "skills":
+    [{
+        "name": "Algorithms",
+        "level":85,
+        "description": "A thorough grounding from university in algorithm design, speed and memory use &mdash; this has been strengthened in my work since."
+    }, {
+        "name": "Visualisation",
+        "level":80,
+        "description": "After university this has been a topic of interest for me and I experiment with <a href=\"http://d3js.org/\">D3</a> and other libraries."
+    }, {
+        "name": "Parallel Computing / Multi-threaded Programs",
+        "level":75,
+        "description": "In early research I parallelized some algorithms. Programs that modify a GUI or database and embedded programs have all required some of these concepts."
+    }, {
+        "name": "Linear Algebra",
+        "level":75,
+        "description": "University gave a great grounding and it's been useful for optimisations since."
+    }, {
+        "name": "Machine Learning",
+        "level":70,
+        "description": "An interest that I study in my free time."
+    }, {
+      "name": "Java",
+      "level": 90,
+      "description": "15 years experience. I prefer to use Gradle and JUnit. Most recently I've been mentoring an Android developer and built an Eclipse plugin to adjust the ADT build process."
+    }, {
+      "name": "Python",
+      "level": 85,
+      "description": "6 years experience. My go-to for any quick job especially for prototyping, protocol analysis, data scraping or data analysis."
+    }, {
+      "name": "JavaScript",
+      "level":80,
+      "description": "4 years experience with Bower, Grunt, JQuery, Bootstrap, Backbone and Node."
+    }, {
+        "name": "C++",
+        "level": 75,
+        "description": "10 years experience. The programming in my current job is predominantly adding features to a large C++ project while guiding other team members."
+    }, {
+        "name": "C",
+        "level":75,
+        "description": "12 years experience mostly with embedded software for ARM chips but also with MPI C for parallel algorithms."
+    }, {
+        "name": "HTML / CSS",
+        "level":75,
+        "description": "I can get it to do what I want. This is hand coded by me. How does it look?"
+    }, {
+        "name": "SQL",
+        "level":75,
+        "description": "6 years experience. I have been the member of the team responsible for MySQL on more than one occasion."
+    }, {
+        "name": "MATLAB",
+        "level":70,
+        "description": "10 years experience mostly for university research or tutoring. I've tended to use Python's matplotlib for other projects."
+    }, {
+        "name": "C#",
+        "level":70,
+        "description": "5 years experience using both Mono and .NET."
+    }, {
+        "name": "PHP",
+        "level":65,
+        "description": "10 years experience but only making light changes to existing code bases."
+    }, {
+        "name": "Embedded Systems",
+        "level":75,
+        "description": "Cyber Technology and my current job involved programming and debugging embedded systems both with an operating systems and without."
+    }, {
+        "name": "Communication Protocols",
+        "level":75,
+        "description": "Cyber Technology and my current job require a deep understanding of protocols built on top of CAN, Ethernet, UART and SPI."
+    }, {
+        "name": "Linux",
+        "level":90,
+        "description": "Experience programming a kernel driver, building it from scratch, provisioning servers, administering other peoples Ubuntu machines. On embedded systems I've used NuttX and OpenEmbedded."
+    }, {
+        "name": "Mac OS X",
+        "level":85,
+        "description": "My preferred platform to work from. I don't know the internals as well as Ubuntu and haven't done any work targeting the platform."
+    }, {
+        "name": "Windows",
+        "level":75,
+        "description": "I know how to fix and use Windows software better than most people I've worked with but I rarely use the system without external pressures. I have done some .NET programming targeting Windows including creating a libraries and installation binaries."
+    }, {
+        "name": "Android",
+        "level":75,
+        "description": "I'm currently tutoring Android developers and worked six months on a security application targeting the system."
+    }, {
+        "name": "ARM",
+        "level":75,
+        "description": "Most of the embedded work I've done has targeted ARM chips. I also did research and built a prototype modifying iOS binaries. I have worked with Stellaris chips using CodeSourcery, modified their boot-loader code and written tasks to run on NuttX."
+    }, {
+        "name": "Data mining",
+        "level":80,
+        "description": "Mostly web-scraping natural websites using Python."
+    }, {
+        "name": "Git",
+        "level":85,
+        "description": "Used extensively for more than five years. Experience with hosting, triggers, branching, merging, filtering and fixing mine or others mistakes."
+    }, {
+        "name": "Responsive Design",
+        "level":80,
+        "description": "Try changing the size of this resume or look at <a href=\"http://insideseoulhostel.com/\">this website that I made responsive</a>."
+    }, {
+        "name": "DevOps",
+        "level":75,
+        "description": "Vagrant, Puppet and Bower are all great tools. For reasonable projects I prefer to use these to reduce the amount of time it takes to set-up for development."
+    }, {
+        "name": "Build Automation / Unit Testing",
+        "level":75,
+        "description": "I try to automate and test each project I work on but sometimes this happens in stages. I'm quite familiar with Maven and Grunt but have also used Gradle, Ant and Bower. Any project without unit testing is asking for problems. That said, full coverage is nice for a library but not always time effective for all projects."
+    }, {
+        "name": "Agile",
+        "level":75,
+        "description": "Most of my work has not been in Agile environments but I prefer to keep documentation as light as possible (but documented), code self documented and the project planned to a realistic horizon with mechanisms in place to allow pivoting."
+    }, {
+        "name": "Code review / Bug tracking",
+        "level":75,
+        "description": "Used throughout my career including substantial experience with Phabricator (an open source code review and bug tracking tool)."
+    }]
+}

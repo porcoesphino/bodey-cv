@@ -1,0 +1,18 @@
+<div class="panel-group" id="accordionLanguage" role="tablist" aria-multiselectable="true">
+  {{#forEach language}}
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingLang{{index}}">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseLang{{index}}" aria-expanded="true" aria-controls="collapseLang{{index}}">
+          <div>{{name}} <span style="color: #f0ad4e;">{{{level}}}</span></div>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseLang{{index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingLang{{index}}">
+      <div class="panel-body">
+        {{description}}
+      </div>
+    </div>
+  </div>
+  {{/forEach}}
+</div>

@@ -1,0 +1,14 @@
+{
+  "testimonials":
+    [{
+      "name": "Paul Dewar",
+      "company": "Cyber Technology",
+      "position": "Chief Operating Officer",
+      "quote": "I would recommend Bodey to anyone seeking a reliable, efficient and well informed engineer and team leader."
+    },{
+      "name": "Xavier Orr",
+      "company": "Cyber Technology",
+      "position": "Director of Research and Development",
+      "quote": "Bodey’s performance at the company was outstanding. I highly recommend him for research and development engineering work."
+    }]
+}

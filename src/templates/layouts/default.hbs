@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    This file is quite ugly due to compromises made keeping everything in one file. My apologies.
+    Inside the head section is some Javascript containing the information to be displayed in the cv.
+    This is at the start since it's probably why another person would open this file.
+    Early on Bootstrap was selected since it works well for responsive design.
+    It's main flaw is repetitive boilerplate HTML. (And the view is encoded in the html.)
+    To handle this Handlebars is used for templating. It's an odd usecase but it seems to work.
+    Finally, mimified libraries have been included for off-line viewing making it even harder to read. Sorry.
+    The cv this first branched from is here:
+    http://www.thomashardy.me.uk/free-responsive-html-css3-cv-template
+  -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{intro.name}} - Curriculum Vitae</title>
+    <meta name="description" content="{{intro.name}} has provided this CV to help solve your hiring dilemma.">
+
+    <link
+  data-concat="false" data-remove="false"
+  href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHUlEQVQ4T2NkoBAwIvQ3MOnYnW9iYGD8g9/M/yz/mZiOXD2wfgdIHdwAbRtfOUYmFpcrh9bPI+QoHbuAhiuHNjSgGGDgEKDw9y+Dw+XDGxbADLCZftmH8f9/lncizNuuhmn/gokTbYDV9KtO/5n+PmP6xfbpaK7GM5INsJlxxfc/w3+uoxm6K5G9RdAF1nNv8DL+/mvNwPCf9d+///8Y/zN++8/A+P5YtvYFkEEEDbCaeVmZ4Q+DMjPj/59//zOyMzEx/PrPyMB6NEN3N1EGUBwLVlOvmDIx/edGN+gvK9Ol4yna7wh7YWgaoGPnL/ufkcnj6sH1swkForatf+PVwxvrUZIyLHoIaf7PwMjBxPB32+VDmw5hGEBIMzZ5AGIz0hHk64ZFAAAAAElFTkSuQmCC"
+  rel="icon" type="image/png"
+/>
+
+    <!-- build:css inline compiled.css -->
+    <link rel="stylesheet" href="styles/images.css" />
+    <link rel="stylesheet" href="styles/fonts.css">
+
+    <link rel="stylesheet/less" type="text/css" href="styles/bootstrap-overrides.less" />
+    <!-- /build -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+    <!-- build:remove -->
+    <script data-concat="false" data-remove="true">
+      less = {
+        env: "development",
+        async: false,
+        fileAsync: false,
+        poll: 1000,
+        dumpLineNumbers: "comments"
+      };
+    </script>
+    <script data-concat="false" data-remove="true" src="bower_components/less/dist/less.min.js" type="text/javascript"></script>
+    <!-- /build -->
+
+    <div>
+
+      <div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div class="no-media-query" style="text-align:center;">
+          <strong style="font-size:150%;">This is not being displayed correctly!</strong><br/>
+          Something is stripping the CSS. Are you using a web email client to view an attachment?<br/>
+          <div style="font-size:300%;padding:30px;"><strong>Please view <a href="{{{intro.resume-url}}}">the on-line version</a> or download this first.</strong></div>
+        </div>
+        <div class="no-javascript">
+          JavaScript is disabled.
+          <div>
+            <strong style="font-size:130%;">Please view <a href="{{{intro.resume-url}}}">the on-line version</a></strong> if you are on your phone.
+          </div>
+        </div>
+        <div>
+          The printed version will display sections as they are displayed. Either: expanded, collapsed or dismissed.
+        </div>
+      </div>
+
+      {{> body }}
+
+    </div>
+
+    <!-- build:js inline compiled.js-->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="src/scripts/preparation.js"></script>
+    <script src="bower_components/bootstrap/js/alert.js"></script>
+    <script src="bower_components/bootstrap/js/collapse.js"></script>
+    <!-- /build -->
+  </body>
+</html>
