@@ -4,3 +4,11 @@
   height: 15px;
   background: url('../images/linkedin-logo.png') no-repeat;
 }
+
+.contact-github {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url('../images/github-logo.png') no-repeat;
+  background-size: 15px 15px;
+}
