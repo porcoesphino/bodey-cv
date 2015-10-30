@@ -7,7 +7,7 @@
   if (el_alert.children(':visible').length === 1) {
     el_alert.hide();
   }
-  $('#intro-buttons').append('<input class="btn btn-primary btn-xs" type="button" id="expand-button">');
+  $('#intro-buttons').html('<input class="btn btn-primary btn-xs" type="button" id="expand-button">');
   var EXPAND_TEXT_ALL = "Expand all";
   var EXPAND_TEXT_NONE = "Collapse all";
   $('#expand-button')[0].value = EXPAND_TEXT_ALL;
